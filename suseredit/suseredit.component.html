@@ -1,0 +1,67 @@
+<div class="container  email ">
+    <div >
+    <label><h1>USER EDIT</h1></label>  
+  </div>
+  <DIV class="row">
+      <div class="col-sm-6">
+          <label>first name</label>
+      </div> 
+      <div class="col-sm-6">
+          <label>lastname</label>
+      </div>
+  
+      </DIV>
+      <DIV class="row">
+        <div class="col-sm-6">
+            <input type="text" name="first" [(ngModel)]="first" >
+        </div> 
+        <div class="col-sm-6">
+            <input type="text" name="last" [(ngModel)]="last" >
+           
+        </div>
+    
+        </DIV>
+        <DIV class="row">
+            <div class="col-sm-6">
+                <label>address</label>
+            </div> 
+            <div class="col-sm-6">
+                <label>mobile no:</label>
+
+            </div>
+        </DIV>
+        <DIV class="row">
+            <div class="col-sm-6">
+                <input type="text" name="address" [(ngModel)]="address" >
+            </div> 
+            <div class="col-sm-6">
+                <input type="text" name="mobile" [(ngModel)]="mobile" >
+               
+            </div>
+        
+            </DIV>
+            <DIV class="row">
+                <div class="col-sm-6">
+                    <label>password</label>
+                </div> 
+                <div class="col-sm-6">
+                    <label>re-enter password</label>
+    
+                </div>
+            </DIV>
+            <DIV class="row">
+                <div class="col-sm-6">
+                    <input type="password" name="pass" [(ngModel)]="pass" >
+                </div> 
+                <div class="col-sm-6">
+                    <input type="password" name="repass" [(ngModel)]="repass" >
+                </div>
+            
+                </DIV><br>
+
+                <div>
+                    <input type="submit"  name="save"(click)="add(first,second,address,mobile,pass,repass)" class="bg-success">
+                </div>
+
+
+    </div>

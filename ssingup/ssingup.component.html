@@ -1,0 +1,75 @@
+<div class="container  email " style="float: right;">
+    <div>
+    <label><h1>SIGNUP PAGE</h1></label>  
+  </div>
+  
+  <DIV class="row">
+      <div class="col-sm-6">
+          <label>NAME</label>
+      </div> 
+      <div class="col-sm-6">
+          <label>EMAIL</label>
+      </div>
+  
+      </DIV>
+      <DIV class="row">
+        <div class="col-sm-6">
+            <input type="text" name="first" [(ngModel)]="first" placeholder="NAME" >
+        </div> 
+        <div class="col-sm-6">
+            <input type="text" name="second" [(ngModel)]="second" placeholder="EMAIL" >
+           
+        </div>
+    
+        </DIV>
+        <DIV class="row">
+            <div class="col-sm-6">
+                <label>ADDRESS</label>
+            </div> 
+            <div class="col-sm-6 control">
+                <label>PHONE</label>
+
+            </div>
+        </DIV>
+        <DIV class="row">
+            <div class="col-sm-6">
+                <input type="text" name="address" [(ngModel)]="address"  placeholder="ADDRESS">
+            </div> 
+            <div class="col-sm-6">
+                <input type="text" name="mobile" [(ngModel)]="mobile" placeholder="MOBILE">
+               
+            </div>
+        
+            </DIV>
+            <DIV class="row">
+                <div class="col-sm-6">
+                    <label>PASSWORD</label>
+                </div> 
+                <div class="col-sm-6">
+                    <label>RE-ENTER PASSWORD</label>
+    
+                </div>
+            </DIV>
+            <DIV class="row">
+                <div class="col-sm-6">
+                    <input type="password" name="password" [(ngModel)]="pass" placeholder="PASSWORD">
+                </div> 
+                <div class="col-sm-6">
+                    <input type="password" name="repassword" [(ngModel)]="repass" placeholder="RE-ENTERPASS">
+                </div>
+            
+                </DIV><br>
+                <DIV class="row">
+                    <div class="col-sm-6">
+                        <input type="submit" (click)="add(first,second,address,mobile,pass,repass)" class="bg-INFO">
+                    </div> 
+                   
+                    </DIV><br>
+    
+
+                <div>
+                    <input type="submit" (click)="add(first,second,address,mobile,pass,repass)" class="bg-INFO">
+                </div>
+
+
+    </div>

@@ -1,0 +1,13 @@
+.size{
+    border-radius: 500%;
+    box-sizing: border-box;
+    border-width: thick;
+    size: 400px;
+
+}
+.email{
+    
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+  font-size: x-large;
+}

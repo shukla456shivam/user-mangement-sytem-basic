@@ -1,0 +1,66 @@
+<p>sloggin works!</p>
+<div class="container form-horizintal "  >
+   
+    <div  class="email">
+        <label  >Email</label>
+    </div>
+    
+    <div class="email">
+        <input type="email"  [(ngModel)]="email" placeholder="email" required>
+    </div>
+    <div class="email" >
+        <label >PASSWORD</label>
+    </div>
+    <div class="email">
+        <input type="password"  [(ngModel)]="password"  placeholder="password" required>
+    </div>
+    <br>
+<div class="email">
+    <button type="submit" (click)="addshare(email,password)" required class="bg-info"> login</button>
+</div><Br>
+<div class="email">
+    <button type="submit" (click)="move()" required class="size"> new       user</button>
+</div>
+</div>
+<!--
+<div class="container">
+    <div class="row">
+        <div class="col-lg-3 col-md-2"></div>
+        <div class="col-lg-6 col-md-8 login-box">
+            <div class="col-lg-12 login-key">
+                <i class="fa fa-key" aria-hidden="true"></i>
+            </div>
+            <div class="col-lg-12 login-title">
+                ADMIN PANEL
+            </div>
+
+            <div class="col-lg-12 login-form">
+                <div class="col-lg-12 login-form">
+                    <form>
+                        <div class="form-group">
+                            <label class="form-control-label">USERNAME</label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label class="form-control-label">PASSWORD</label>
+                            <input type="password" class="form-control" i>
+                        </div>
+
+                        <div class="col-lg-12 loginbttm">
+                            <div class="col-lg-6 login-btm login-text">
+                                 Error Message 
+                            </div>
+                            <div class="col-lg-6 login-btm login-button">
+                                <button type="submit" class="btn btn-outline-primary">LOGIN</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-2"></div>
+        </div>
+    </div>
+
+-->
+
+
